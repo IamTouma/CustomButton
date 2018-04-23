@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context="com.example.custombutton.MainActivity">-->
+
+<!--</android.support.constraint.ConstraintLayout>-->
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <!--<ImageView-->
+        <!--android:src="@drawable/shape_sample"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="200dp" />-->
+
+    <TextView
+        android:id="@+id/text_view"
+        android:textSize="40sp"
+        android:textColor="#00f"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_margin="20dp" />
+
+    <!--<Button-->
+        <!--android:id="@+id/custom_button"-->
+        <!--android:text="Custom Button"-->
+        <!--android:textSize="24sp"-->
+        <!--android:layout_margin="20dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:background="@drawable/button_state" />-->
+
+    <Button
+        android:id="@+id/custom_button"
+        android:text="Custom Button"
+        android:textSize="24sp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/button_state_2" />
+</LinearLayout>
